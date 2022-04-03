@@ -1,0 +1,45 @@
+.imagesize {
+    
+    background-image: url("../../images/bgsombre.jpg");
+        &:nth-child(2) {
+            background: url("../../images/html-coding.png") no-repeat;
+            transform: scale(0.5);
+            background-size: contain;
+
+        }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+.sizeTxt {
+    padding-top: 45vh;
+    p {
+        padding: 0 55px;
+    }
+}
+
+.fontFamily {
+    font-family: 'Libre Franklin', sans-serif;
+}
+.fontTelegraf {
+    font-family: 'telegraf bol';
+}
+@font-face {
+    font-family: 'telegraf bold';
+    src: url("./fonts/FontsFree-Net-Telegraf-UltraBold-800.ttf");
+}
+
+.githublink {
+        &:hover {
+            border-bottom: 1px solid gray;
+        }
+}
+.boxshadow {
+    margin-bottom: 40px;
+    &:hover {
+        box-shadow: 2px 3px 5px -1px rgba(211, 203, 203, 0.75);
+    border: 1px solid gray;
+    
+    }
+}

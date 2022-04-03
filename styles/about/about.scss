@@ -1,0 +1,51 @@
+.contspan {
+    display: flex;
+    align-items: center;
+   
+}
+.span {
+    border: 1px solid gray;
+    width: 100%;
+   
+}
+.fontFamily {
+    font-family: 'Libre Franklin', sans-serif;
+}
+.fontTelegraf {
+    font-family: 'telegraf bol';
+}
+@font-face {
+    font-family: 'telegraf bold';
+    src: url("./fonts/FontsFree-Net-Telegraf-UltraBold-800.ttf");
+}
+
+.imagesize {
+    
+    background-image: url("../../images/original.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+.sizeTxt {
+  
+    p {
+        padding: 0 55px;
+    }
+}
+.sizeLineTwo {
+    
+    padding-top: 35px;
+}
+
+.cc {
+    height: 29vh;
+}
+.boxshadow {
+    margin-bottom: 40px;
+    &:hover {
+        box-shadow: 2px 3px 5px -1px rgba(211, 203, 203, 0.75);
+    border: 1px solid gray;
+    
+    }
+}

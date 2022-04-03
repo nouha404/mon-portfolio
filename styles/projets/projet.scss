@@ -1,0 +1,91 @@
+
+
+.span {
+    border: 1px solid gray;
+    width: 100%;
+   
+   
+}
+
+
+.imgsize {
+    background: url("../../images/nohe.jpg") center/cover ;
+   
+        &:nth-child(2) {
+            background: url("../../images/Maregabis.png") center/cover;
+        }
+        &:hover {
+            transform: scale(1);
+            filter: grayscale(0);
+            transition: transform 0.4s;
+            animation : rotate 0.5s infinite;
+        }
+         height: 60vh;
+         width: 100%;
+         transform: scale(0.9);
+         filter: grayscale(90%);
+         box-shadow:  -7px 9px 9px -5px rgba(0,0,0,0.8);
+         
+
+
+        
+}
+.imgsizeTwo {
+    background: url("../../images/hahah.png") center/cover no-repeat;
+    height: 60vh;
+    align-items: center;
+    transform: scale(0.9);
+    filter: grayscale(90%);
+    box-shadow:  13px 17px 8px -9px rgba(0,0,0,0.8);
+    
+        &:hover {
+            transform: scale(1);
+            filter: grayscale(0);
+            transition: transform 0.4s;
+            animation : rotate 0.5s infinite;
+            
+        }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(0.2deg);
+    }
+}
+.conTainerphoto {
+    height: 100%;
+}
+
+.linespace {
+    margin-right: 3%;
+}
+.legend {
+    padding-top: 10px;
+   
+}
+.sizerow {
+        
+    padding-top: 70px;
+}
+
+.fontFamily {
+    font-family: 'Libre Franklin', sans-serif;
+}
+.fontTelegraf {
+    font-family: 'telegraf bol';
+}
+@font-face {
+    font-family: 'telegraf bold';
+    src: url("./fonts/FontsFree-Net-Telegraf-UltraBold-800.ttf");
+}
+
+.boxshadow {
+    margin-bottom: 40px;
+    &:hover {
+        box-shadow: 2px 3px 5px -1px rgba(211, 203, 203, 0.75);
+    border: 1px solid gray;
+    
+    }
+}

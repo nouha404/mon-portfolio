@@ -1,0 +1,44 @@
+.fontFamily {
+    font-family: 'Libre Franklin', sans-serif;
+}
+.fontTelegraf {
+    font-family: 'telegraf bol';
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'telegraf bold';
+    src: url("./fonts/FontsFree-Net-Telegraf-UltraBold-800.ttf");
+}
+.rowsize {
+    margin-top: 35px;
+}
+.size {
+    height: 40vh;
+}
+
+.BTN {
+   
+    &:hover {
+        border: 1px solid black;
+    }
+  }
+  .gray {
+      color: rgb(186, 181, 181);
+  }
+
+.imaged {
+    &:nth-child(2) {
+        width: 50%;
+        height: 50%;
+        background-color: red;
+    }
+}
+
+.boxshadow {
+    margin-bottom: 40px;
+    &:hover {
+        box-shadow: 2px 3px 5px -1px rgba(211, 203, 203, 0.75);
+    border: 1px solid gray;
+    
+    }
+}

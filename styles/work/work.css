@@ -1,0 +1,30 @@
+.imagesize {
+  background-image: url("../../images/ecrrr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+
+.sizeLineTwo {
+  padding-top: 35px;
+  margin-top: 50px;
+}
+
+.sizeTxt p {
+  padding: 0 55px;
+}
+
+.fontFamily {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.fontTelegraf {
+  font-family: 'telegraf bol';
+}
+
+@font-face {
+  font-family: 'telegraf bold';
+  src: url("./fonts/FontsFree-Net-Telegraf-UltraBold-800.ttf");
+}
+/*# sourceMappingURL=work.css.map */

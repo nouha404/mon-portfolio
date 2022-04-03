@@ -1,5 +1,5 @@
 Oie Oie Oie 📬
-# Bievenue sur le profilt,
+# Bievenue sur le profil,
     du  disciple de maitre Yoda 🧙‍♂️
 # Ayez donc un petit apercu
       de mon travail : 📚

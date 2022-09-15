@@ -8,7 +8,7 @@ oie oie oie 📭
           https://nouha404.github.io/mon-portfolio/
           
 #  n'hésitez pas, 🃏
-         follow me : marega.aboubacar404@gmail.com 
+         Contact me : aboubacar.marega@ism.edu.sn 
 
    And the world w'll be better 🪐 💳
     
